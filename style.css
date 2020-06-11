@@ -1,0 +1,163 @@
+body{
+  background-color: rgb(44,213,217);
+}
+header {
+  text-align: center;
+  background-image: url(imgs/pineapple.png);
+  font-family: fantasy;
+  margin: 10px;
+}
+header h1 {
+  color: rgb(63, 32, 63);
+  font-size: 20pt;
+}
+h2 {
+  color: rgb(63, 32, 63);
+  font-size: 18pt;
+  text-align: center;
+}
+header nav{
+  display: flex;
+  font-size: 10pt;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+header nav a{
+  text-decoration: none;
+}
+p {
+  color: rgb(63, 32, 63);
+  text-align: left;
+  font-size: 12pt;
+}
+.about{
+  background-color: rgb(83, 42, 83);
+}
+.about h2 {
+  color: aqua;
+  font-size: 15pt;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.about p{
+  color: rgb(87, 216, 216);
+  margin: auto;
+  padding-left:15px;
+  padding-right:15px;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  flex: 1;
+  margin: 15px;
+}
+.item-double{
+  flex:2;
+  margin: 10px;
+}
+.item-triple{
+  flex:3;
+  margin: 10px;
+}
+main img{
+  width: 100%;
+  border-radius: 4px;
+}
+fieldset img{
+  width: 50%;
+}
+.portfolio img{
+  width: 50%;
+}
+.portfolio, .portfolio p{
+  text-align: center;
+}
+.wrapper{
+  width: 100%;
+}
+a:link{
+  color: rgb(113, 11, 215);
+}
+a:visited{
+  color:rgb(0, 0, 0);
+}
+a:hover{
+  color: rgba(29, 170, 123, 0.54);
+}
+a:active{
+  color: blueviolet;
+  text-decoration: line-through;
+}
+.titular{
+  font-size:14pt;
+  font-weight: bold;
+}
+footer, .footer {
+  background-image: url(imgs/pineapple.png);
+  text-align: center;
+  font-size: 8pt;
+}
+hr {
+  height: 15px;
+  background-image: url(imgs/floral.jpg);
+  border: 0px;
+}
+form label {
+  padding-top: 10px;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgb(11, 86, 71);
+  font-family: arial;
+}
+form input, form textarea{
+  margin-bottom: 10px;
+  width: 40%;
+  font-size: 20px;
+  font-family: arial;
+  color: rgb(0, 64, 59);
+}
+form textarea{
+  width: 60%;
+}
+fieldset{
+  text-align: left;
+  border-radius: 8px;
+  padding: 0px;
+  width: 80%;
+  border: 1px solid aqua;
+  margin: auto;
+}
+legend {
+  background-color: black;
+  color: rgb(44,213,217);
+  padding: 2px 3px;
+  border-radius: 5px;
+  margin: auto;
+}
+button{
+  font-family: fantasy;
+  color:rgb(44,213,217);
+  background: black;
+  border-radius: 9px;
+  border: 0px;
+  padding: 3px 5px;
+  
+}
+@media all and (min-width: 800px) {
+  section, h1 {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
