@@ -213,13 +213,8 @@ button {
 	padding: 3px 5px;
 }
 
-li {
-	list-style-type: square;
-	padding-left: 0em;
-}
-
 ul {
-	padding-left: 0em;
+	list-style-position: inside
 }
 
 @media all and (min-width: 800px) {
