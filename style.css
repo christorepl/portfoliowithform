@@ -223,6 +223,7 @@ li {
     text-align: center;
     margin: auto;
   }
+
   header h1{
     padding-left: 20px;
     font-size: 20pt;
@@ -258,7 +259,7 @@ li {
   }
 
   .portfolio img {
-    width: 80%;
+    max-width: 400px;
   }
 
   fieldset {
