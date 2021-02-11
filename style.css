@@ -215,6 +215,11 @@ button {
 
 li {
 	list-style-type: square;
+	padding-left: 0em;
+}
+
+ul {
+	padding-left: 0em;
 }
 
 @media all and (min-width: 800px) {
