@@ -9,7 +9,7 @@ body {
 
 .item {
 	flex: 1;
-	margin: 15px;
+	margin: 10px;
 }
 
 .item-double {
@@ -66,6 +66,7 @@ header nav a {
 header .item{
   justify-content: space-around;
 }
+
 h2 {
 	color: rgb(63, 32, 63);
 	font-size: 18pt;
@@ -108,12 +109,17 @@ main img {
 }
 
 fieldset img {
-	width: 50%;
+	width: 40%;
 	justify-content: center;
 }
 
+.portfolio .group {
+    flex-direction: column;
+}
+
+
 .portfolio img {
-	width: 50%;
+	width: 60%;
 }
 
 .portfolio, .portfolio p {
@@ -246,7 +252,7 @@ button {
   }
 
   .portfolio img {
-    width: 5%;
+    width: 80%;
   }
 
   fieldset {
