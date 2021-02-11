@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(44,213,217);
+	background-color: rgb(182, 202, 255);
 }
 
 .group {
@@ -131,7 +131,7 @@ fieldset img {
 }
 
 a:link {
-	color: rgb(113, 11, 215);
+	color: rgb(105, 84, 21);
 }
 
 a:visited {
@@ -139,7 +139,9 @@ a:visited {
 }
 
 a:hover {
-	color: rgba(29, 170, 123, 0.54);
+	color: rgba(23, 53, 53, 0.733);
+	background-color: white;
+	border-radius: 5px;
 }
 
 a:active {
@@ -209,6 +211,10 @@ button {
 	border-radius: 9px;
 	border: 0px;
 	padding: 3px 5px;
+}
+
+li {
+	list-style-type: square;
 }
 
 @media all and (min-width: 800px) {
