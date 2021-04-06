@@ -1,1 +1,1 @@
-thanks for reading me and checking out my portfolio project on github for thinkful!
+
